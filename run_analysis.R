@@ -2,15 +2,16 @@ library(data.table)
 library(dplyr)
 library(reshape2)
 
+os.sep = .Platform$file.sep
 # path to relevant files
-training_data_path = ".\\UCI HAR Dataset\\train\\X_train.txt"
-training_subject_path = ".\\UCI HAR Dataset\\train\\subject_train.txt"
-training_label_path = ".\\UCI HAR Dataset\\train\\y_train.txt"
-test_data_path = ".\\UCI HAR Dataset\\test\\X_test.txt"
-test_subject_path = ".\\UCI HAR Dataset\\test\\subject_test.txt"
-test_label_path = ".\\UCI HAR Dataset\\test\\y_test.txt"
-column_names_path = ".\\UCI HAR Dataset\\features.txt"
-activity_labels_path = ".\\UCI HAR Dataset\\activity_labels.txt"
+training_data_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "train", os.sep, "X_train.txt", sep="")
+training_subject_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "train", os.sep, "subject_train.txt", sep="")
+training_label_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "train", os.sep, "y_train.txt", sep="")
+test_data_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "test", os.sep, "X_test.txt", sep="")
+test_subject_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "test", os.sep, "subject_test.txt", sep="")
+test_label_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "test", os.sep, "y_test.txt", sep="")
+column_names_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "features.txt", sep="")
+activity_labels_path = paste(".", os.sep, "UCI HAR Dataset", os.sep, "activity_labels.txt", sep="")
 
 # read and merge training and test dataset
 
