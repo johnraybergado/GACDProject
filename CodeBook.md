@@ -7,10 +7,11 @@ The resulting tidy data has a total of 88 variables:
 
 The other 86 variables are taken as mean of the measurements
 grouped per subject and per activity of the selected features
-(as per [README](https://www.google.com)).
+(as per [README](https://github.com/xtinkrr/GACDProject/blob/master/README.md)).
 
-For more information on the units of each variable, see the
-[features_info.txt](https://www.google.com) from the raw dataset.
+For more information on the units of each variable, see the original
+[features_info.txt](https://github.com/xtinkrr/GACDProject/blob/master/features_info.txt)
+from the raw dataset.
 
 And as noted by the original dataset's README:
 

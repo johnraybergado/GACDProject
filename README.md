@@ -13,7 +13,7 @@ out of the set of features.
 4. And computes the average of each variable for
 every activity done by each subject.
 
-See the [CodeBook](http://www.google.com) for more
+See the [CodeBook](https://github.com/xtinkrr/GACDProject/blob/master/CodeBook.md) for more
 details about the data.
 
 ## Reading the tidy data
