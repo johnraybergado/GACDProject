@@ -14,6 +14,15 @@ out of the set of features.
 4. And computes the average of each variable for
 every activity done by each subject.
 
+Note the script assumes that the following libraries
+are installed:
+
+- data.table
+- dplyr
+- reshape2
+
+And the dateset is in the same directory as the script.
+
 See the [CodeBook](https://github.com/xtinkrr/GACDProject/blob/master/CodeBook.md) for more
 details about the data.
 
