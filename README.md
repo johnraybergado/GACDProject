@@ -1,8 +1,9 @@
 # Cleaning UCI HAR Dataset
 
-The script produces a tidy data out of the the UCI
-Human Activity Recognition dataset.  It generally
-does the following:
+The [run_analysis.R](https://github.com/xtinkrr/GACDProject/blob/master/run_analysis.R)
+script produces a tidy data out of the the UCI Human
+Activity Recognition dataset.  It generally does the
+following:
 
 ## General script flow
 1. Combines the training and test set into one big
